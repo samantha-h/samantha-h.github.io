@@ -1,5 +1,5 @@
 body {
-    margin: 50px; width: 92%
+    margin: 50; width: 92%
 }
 a {
     text-decoration: none; color: #707171;
@@ -25,15 +25,15 @@ li {
   float: left;
 }
 .logo {
-    margin: 9px;
-    font-size: 25px;
+    margin: 9;
+    font-size: 25;
     font-weight: 500;
 }
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 9px 16px;
+  padding: 9 16;
   text-decoration: none;
 }
 a:hover:not(.active) {
@@ -47,42 +47,42 @@ h1 {
     color: #222;
 }
 .img-sideplant {
-    width: 300px;
+    width: 300;
 }
 .img-rightplant {
-    width: 300px;
-    margin-left: 37px;
-    margin-top: 30px;
+    width: 300;
+    margin-left: 37;
+    margin-top: 30;
 }
 .img-rightcactus {
-    width: 300px;
-    margin-left: 37px;
+    width: 300;
+    margin-left: 37;
 }
 .img-leaf {
-    width: 300px;
-    margin-left: 37px
+    width: 300;
+    margin-left: 37;
 }
 .img-vaseplants {
-    width: 300px;
-    margin-top: 30px;
+    width: 300;
+    margin-top: 30;
 }
 .img-stringplant {
-    width: 300px;
-    margin-left: 37px;
-    margin-top: 30px;
+    width: 300;
+    margin-left: 37;
+    margin-top: 30;
 }
 .img-boxplant {
-    width: 300px;
-    margin-left: 37px;
-    margin-top: 30px;
+    width: 300;
+    margin-left: 37;
+    margin-top: 30;
 }
 .img-smallvaseplant {
-    width: 300px;
-    margin-left: 37px;
-    margin-top: 30px;
+    width: 300;
+    margin-left: 37;
+    margin-top: 30;
 }
 .img-leftplant {
-    width: 300px;
-    margin-left: 37px;
-    margin-top: 30px;
+    width: 300;
+    margin-left: 37;
+    margin-top: 30;
 }
