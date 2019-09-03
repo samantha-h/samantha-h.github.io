@@ -1,27 +1,29 @@
+/* Website format*/
 body {
     margin: 50px; width: 92%
 }
+/* Navigation bar format */
 a {
     text-decoration: none; color: #707171;
 }
-a:hover {
+.navigation a:hover {
     text-decoration:overline;
 }
-p, ul { 
+.navigation p, ul { 
     font-size: 21px; 
     line-height: 1.8em; 
     color: #222; 
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:200;
 }
-ul {
+.navigation ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #707171;
 }
-li {
+.navigation li {
   float: left;
 }
 .logo {
@@ -29,7 +31,7 @@ li {
     font-size: 25px;
     font-weight: 500;
 }
-li a {
+.navigation li a {
   display: block;
   color: white;
   text-align: center;
@@ -42,9 +44,19 @@ a:hover:not(.active) {
 .active {
   background-color:#4CAF50;
 }
-h1 {
+/* Home page headers format */
+.info h1 {
   font-family: 'Roboto Condensed', sans-serif;
     color: #222;
+}
+.info p {
+   font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px
+}
+/* Home page images format */
+.mountains {
+    width: 95%;
+    margin-left: 35px;
 }
 .img-sideplant {
     width: 300px;
@@ -85,4 +97,158 @@ h1 {
     width: 300px;
     margin-left: 37px;
     margin-top: 30px;
+}
+/* Profile headers format */
+.profile p {
+    font-size: 26px;
+    margin-right: 700px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2c2c2c
+}
+.profile h3 {
+    font-size: 45px;
+    color: #B3B3B3;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* Profile > Favorites list format */
+.favs p {
+    font-weight: bold;
+    color: #656565;
+    margin-left: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* Profile > Book section format */
+.profile .book {
+    margin-left: 80px;
+    font-size: 20px;
+}
+/* Profile > Fun facts list format */
+.profile li {
+    margin-right: 700px;
+    font-size: 26px;
+}
+.funfacts ul {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+.info ol {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+/* Profile page images format */
+.davebread {
+  position: absolute;
+    left:700px;
+    width: 300px;
+    border-style: dotted;
+}
+.nuttzo {
+    position:absolute;
+        left:1100px;
+    width: 300px;
+    border-style: dotted;
+}
+.hp {
+    position: absolute;
+    left:700px;
+    width: 220px;
+    border-style: dotted;
+}
+.yourname {
+    position:absolute;
+        left:1100px;
+    width: 250px;
+    border-style: dotted;
+}
+.me {
+    position: absolute;
+    left:930px;
+    width: 180px;
+    border-style: dotted;
+}
+.dog {
+    position: absolute;
+    left:900px;
+    width: 180px;
+    border-style: dotted;
+}
+.cat {
+    position:absolute;
+        left:1150px;
+    width: 220px;
+    border-style: dotted;
+}
+/* Something fun page headers format */
+.vidsandpics h3 {
+    font-size: 45px;
+    color: #B3B3B3;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.vidsandpics h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #B3B3B3;
+    font-size: 27px;
+    margin-left: 80px
+}
+/* Something fun page drawing images format */
+.boldandbrash {
+   width: 200px; 
+    margin-left: 130px;
+    border-style: solid;
+    
+}
+.cowboy {
+    width: 200px;
+    margin-left: 30px;
+    border-style: solid;
+}
+.planet {
+    width: 200px;
+    margin-left: 30px;
+    border-style: solid;
+}
+.pink {
+    width:200px;
+    margin-left: 30px;
+    border-style: solid;
+}
+.monstera {
+    width: 200px;
+    margin-left: 30px;
+    border-style: solid;
+}
+.aloe {
+    width: 300px;
+    margin-left: 220px;
+    border-style: solid;
+}
+.hair {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-style: solid;
+        
+}
+.chicken {
+    width: 300px;
+    margin-left: 30px;
+    border-style: solid;
+}
+.christie {
+    width: 350px;
+    margin-left: 130px;
+    margin-top: 30px;
+    border-style: solid;
+}
+.poki {
+    width: 400px;
+    margin-left: 30px;
+    border-style: solid;
+}
+.offramp {
+    width: 350px;
+    margin-left: 30px;
+    border-style: solid;
 }
