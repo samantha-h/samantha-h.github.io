@@ -140,7 +140,7 @@ a:hover:not(.active) {
 /* Profile page images format */
 .davebread {
     position: absolute;
-        left: 300px;
+        left: 700px;
     width: 300px;
     border-style: dotted;
 }
