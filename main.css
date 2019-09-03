@@ -1,14 +1,17 @@
-/* Website format*/
+/* Website format to make it not extend fully*/
 body {
     margin: 50px; width: 92%
 }
 /* Navigation bar format */
+    /* Removing the automatic underline for links and changing the color */
 a {
     text-decoration: none; color: #707171;
 }
+    /* When you hover over the navigation bar, an overline will appear to make it fancy */
 .navigation a:hover {
     text-decoration:overline;
 }
+    /* Changing the font and font style of the navigation bar to make it more appealing */
 .navigation p, ul { 
     font-size: 21px; 
     line-height: 1.8em; 
@@ -16,6 +19,7 @@ a {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:200;
 }
+    /* Making the color of the navigation bar gray, the overflow clipped, no margin and padding, no list style */
 .navigation ul {
   list-style-type: none;
   margin: 0;
@@ -23,14 +27,17 @@ a {
   overflow: hidden;
   background-color: #707171;
 }
+    /* The navigation bar floats to the left in the container */
 .navigation li {
   float: left;
 }
+    /* Changing the font and font style of the "apcsp |" in the navigation bar and changing the margin to make it consistent with the rest of the nav bar */ 
 .logo {
     margin: 9px;
     font-size: 25px;
     font-weight: 500;
 }
+    /* Changing the font and font style of the text within the navigation bar; as well as getting rid of underlines, aligning the text to the middle, */
 .navigation li a {
   display: block;
   color: white;
