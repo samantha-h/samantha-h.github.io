@@ -146,12 +146,14 @@ a:hover:not(.active) {
     font-size: 26px;
     font-weight: 500;
 }
+/* Altering the font format of the text on the portfolio page and making it an ordered list to show the amount of assignments I have completed while keeping consistency throughout the website font formatting. (because it looks more attractive) */
 .info ol {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 26px;
     font-weight: 500;
 }
 /* Profile page images format */
+    /* Changing the positioning of the pictures to the right side of the page to fit photos and text on the same page in a nice manner—while sometimes staggering to give it a little spice. Changing the border style of the pictures to dotted to create uniformity between the pictures but not making the appeal too harsh (like if I was to use solid instead) */ 
 .davebread {
     position: absolute;
         left: 700px;
@@ -195,6 +197,7 @@ a:hover:not(.active) {
     border-style: dotted;
 }
 /* Something fun page headers format */
+    /* Modifying the font formatting, color, and margin of the headers within the something fun page to make it consistent with the rest of the site */
 .vidsandpics h3 {
     font-size: 45px;
     color: #B3B3B3;
@@ -207,6 +210,7 @@ a:hover:not(.active) {
     margin-left: 80px
 }
 /* Something fun page drawing images format */
+    /* Changing the size of the photo and margins to space them out as evenly as possible. Also changing the border style of the photos to solid to make it like an art gallery exhibition; while creating some unity between the photos */
 .boldandbrash {
    width: 200px; 
     margin-left: 130px;
