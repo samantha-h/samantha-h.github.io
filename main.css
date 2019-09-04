@@ -53,7 +53,7 @@ a:hover:not(.active) {
   background-color:#4CAF50;
 }
 /* Home page headers format */
-    /* Changing font, font style, and color of the headers and paragrapgs under the info class to make it more appealing and less generic */
+    /* Changing font, font style, and color of the headers and paragraphs under the info class to make it more appealing and less generic */
 .info h1 {
   font-family: 'Roboto Condensed', sans-serif;
     color: #222;
@@ -129,8 +129,8 @@ a:hover:not(.active) {
     margin-left: 80px;
     font-family: 'Roboto Condensed', sans-serif;
 }
-    /* Modify the margin and font size of this excerpt to create contrast and make it seem like a little blurb/side note compared to the main paragraphs */
 /* Profile > Book section format */
+    /* Modify the margin and font size of this excerpt to create contrast and make it seem like a little blurb/side note compared to the main paragraphs */
 .profile .book {
     margin-left: 80px;
     font-size: 20px;
@@ -210,7 +210,7 @@ a:hover:not(.active) {
     margin-left: 80px
 }
 /* Something fun page drawing images format */
-    /* Changing the size of the photo and margins to space them out as evenly as possible. Also changing the border style of the photos to solid to make it like an art gallery exhibition; while creating some unity between the photos */
+    /* Changing the size of the photo and margins to space them out as evenly as possible. Also changing the border style of the photos to solid to make it like an art gallery exhibition, and it adds more "substance" to the page because it lacks words, while also creating unity between the photos */
 .boldandbrash {
    width: 200px; 
     margin-left: 130px;
