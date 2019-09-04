@@ -3,7 +3,7 @@ body {
     margin: 50px; width: 92%
 }
 /* Navigation bar format */
-    /* Removing the automatic underline for links and changing the color */
+    /* Removing the automatic underline for links and changing the color to make it attractive and more professional looking */
 a {
     text-decoration: none; color: #707171;
 }
@@ -19,7 +19,7 @@ a {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:200;
 }
-    /* Making the color of the navigation bar gray, the overflow clipped, no margin and padding, no list style */
+    /* Making the color of the navigation bar gray, the overflow clipped, no margin and padding, and no list style to make it  */
 .navigation ul {
   list-style-type: none;
   margin: 0;
@@ -37,7 +37,7 @@ a {
     font-size: 25px;
     font-weight: 500;
 }
-    /* Changing the font and font style of the text within the navigation bar; as well as getting rid of underlines, aligning the text to the middle, */
+    /* Changing the font and font style of the text within the navigation bar; as well as getting rid of underlines and aligning the text to the middle to make it prettier and centered */
 .navigation li a {
   display: block;
   color: white;
@@ -45,6 +45,7 @@ a {
   padding: 9px 16px;
   text-decoration: none;
 }
+    /* Change color of text to a dark gray when hovered over to create contrast */
 a:hover:not(.active) {
   background-color: #222;
 }
@@ -52,6 +53,7 @@ a:hover:not(.active) {
   background-color:#4CAF50;
 }
 /* Home page headers format */
+    /* Changing font, font style, and color of the headers and paragrapgs under the info class to make it more appealing and less generic */
 .info h1 {
   font-family: 'Roboto Condensed', sans-serif;
     color: #222;
@@ -61,6 +63,7 @@ a:hover:not(.active) {
     font-size: 22px
 }
 /* Home page images format */
+    /* Adjusting the margins and size of each photo on the home page to make it more aesthetic and spaced out. It gives it a minimalistic feel */
 .mountains {
     width: 95%;
     margin-left: 35px;
@@ -106,6 +109,7 @@ a:hover:not(.active) {
     margin-top: 30px;
 }
 /* Profile headers format */
+    /* Altering the font, font size, margin, and color of the header and paragraphs in the profile page to make it consistent with the home page */ 
 .profile p {
     font-size: 26px;
     margin-right: 700px;
@@ -118,18 +122,21 @@ a:hover:not(.active) {
     font-family: 'Roboto Condensed', sans-serif;
 }
 /* Profile > Favorites list format */
+    /* Changing the font weight, color, and left margin of my favorites list to create a contrast and a distinctive difference between the regular paragraphs and the list */
 .favs p {
     font-weight: bold;
     color: #656565;
     margin-left: 80px;
     font-family: 'Roboto Condensed', sans-serif;
 }
+    /* Modify the margin and font size of this excerpt to create contrast and make it seem like a little blurb/side note compared to the main paragraphs */
 /* Profile > Book section format */
 .profile .book {
     margin-left: 80px;
     font-size: 20px;
 }
 /* Profile > Fun facts list format */
+    /* Making adjustments to the font format and margins of the fun facts list to create uniformity throughout the page; as well as specifically making it a list to change up the configuration of the page */
 .profile li {
     margin-right: 700px;
     font-size: 26px;
