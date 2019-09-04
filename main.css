@@ -1,4 +1,4 @@
-/* Website format to make it not extend fully*/
+/* Website format to make it not extend fully across the screen to make it less generic */
 body {
     margin: 50px; width: 92%
 }
@@ -19,7 +19,7 @@ a {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:200;
 }
-    /* Making the color of the navigation bar gray, the overflow clipped, no margin and padding, and no list style to make it  */
+    /* Making the color of the navigation bar gray, the overflow clipped, no margin and padding, and no list style to make it more original */
 .navigation ul {
   list-style-type: none;
   margin: 0;
@@ -27,7 +27,7 @@ a {
   overflow: hidden;
   background-color: #707171;
 }
-    /* The navigation bar floats to the left in the container */
+    /* The navigation bar floats to the left in the container for personal preference and appeal */
 .navigation li {
   float: left;
 }
